@@ -38,7 +38,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: 安装 .NET SDK
         uses: actions/setup-dotnet@v4
@@ -108,7 +108,7 @@ jobs:
           - rid: win-arm64
             arm64: true
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: 安装 .NET SDK
         uses: actions/setup-dotnet@v4
@@ -169,7 +169,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: 安装 .NET SDK
         uses: actions/setup-dotnet@v4
