@@ -1,5 +1,11 @@
 # ff-lyrics-verify
 
+> **本仓已归档（2026-10-27）。** 验证结论已迁入 [`DC1024/FluentFlyout`](https://github.com/DC1024/FluentFlyout)：
+> - 源码 → `FluentFlyout.Lyrics/` 与 `FluentFlyout.Lyrics.Probe/`
+> - CI → `.github/workflows/verify.yml`
+>
+> 本仓仅作历史证据保留，不再更新。后续开发请到 FluentFlyout fork。
+
 FluentFlyout × TaskbarLyrics 合并前的**可行性验证仓**。目的只有一个：用可复现的 CI 证据回答「方案 B 能否开工」，不承载业务代码。
 
 **当前结论：通过，0 个阻断项。** 完整证据与判定标准见 [`docs/verification-report.md`](docs/verification-report.md)。
