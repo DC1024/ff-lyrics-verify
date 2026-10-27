@@ -1,0 +1,16 @@
+# 构建产物
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+.vs/
+
+# 测试与探针输出
+results.json
+vuln-*.log
+
+# 本机
+.DS_Store
+Thumbs.db
